@@ -1,0 +1,20 @@
+{
+ "name": "ntp_module",
+ "version": "0.1.1",
+ "author": "Gordon Bakke",
+ "summary": "A simple ntp management module",
+ "license": "Apache-2.0",
+ "source": "https://github.com/BakkeGordon/ntp_module.git",
+ "project page": "https://github.com/BakkeGordon/ntp_module",
+ "tage": ["ntp"],
+ "dependencies": [
+   {"name":"puppetlabs/stlib",
+    "version_requirement":">= 4.17.0 < 5.0.0"}
+ ],
+ "operatingsystem_support": [
+  {
+   "operatingsystem": "Ubuntu",
+   "operatingsystemrelease": [ "16.04" ]
+  }
+ ]
+}
